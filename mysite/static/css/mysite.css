@@ -1,0 +1,61 @@
+/* Couleurs du site */
+:root {
+    --vert: #2f6b3a;
+    --vert-clair: #eaf3e6;
+    --texte: #2b2b2b;
+}
+
+body {
+    margin: 0;
+    font-family: system-ui, Arial, sans-serif;
+    color: var(--texte);
+    background-color: #fdfdf9;
+    line-height: 1.6;
+}
+
+/* Menu */
+header {
+    background-color: var(--vert);
+    padding: 1rem;
+}
+
+nav {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    gap: 1.5rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Contenu centré, largeur limitée pour la lisibilité */
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+h1 {
+    color: var(--vert);
+    border-bottom: 3px solid var(--vert-clair);
+    padding-bottom: 0.5rem;
+}
+
+/* Liste de la page Contact */
+ul {
+    background-color: var(--vert-clair);
+    padding: 1rem 2rem;
+    border-radius: 8px;
+}
+
+a {
+    color: var(--vert);
+}
